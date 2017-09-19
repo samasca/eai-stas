@@ -1,0 +1,69 @@
+<testsuite name="sample-maven-app-test-suite" time="0.303" failures="0" errors="0" skipped="0" tests="6">
+  <properties>
+    <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property key="sun.boot.library.path" value="D:\Apps\Java\jdk1.8.0_131\jre\bin"/>
+    <property key="java.vm.version" value="25.131-b11"/>
+    <property key="java.vm.vendor" value="Oracle Corporation"/>
+    <property key="java.vendor.url" value="http://java.oracle.com/"/>
+    <property key="guice.disable.misplaced.annotation.check" value="true"/>
+    <property key="path.separator" value=";"/>
+    <property key="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property key="file.encoding.pkg" value="sun.io"/>
+    <property key="user.country" value="AU"/>
+    <property key="user.script" value=""/>
+    <property key="sun.java.launcher" value="SUN_STANDARD"/>
+    <property key="sun.os.patch.level" value="Service Pack 1"/>
+    <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property key="user.dir" value="D:\Apps\AnypointStudio"/>
+    <property key="java.runtime.version" value="1.8.0_131-b11"/>
+    <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property key="java.endorsed.dirs" value="D:\Apps\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property key="os.arch" value="amd64"/>
+    <property key="java.io.tmpdir" value="C:\Users\samasca\AppData\Local\Temp\"/>
+    <property key="line.separator" value="&#xd;&#xa;"/>
+    <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property key="user.variant" value=""/>
+    <property key="os.name" value="Windows 7"/>
+    <property key="classworlds.conf" value="C:\Apps\apache-maven-3.2.5\bin\m2.conf"/>
+    <property key="sun.jnu.encoding" value="Cp1252"/>
+    <property key="java.library.path" value="D:\Apps\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Novell\iPrint;C:\WINDOWS\system32\Oracle\instantClient_11_2;C:\WINDOWS\system32\Oracle\instantClient_11_2\bin;D:\Apps\Java\jdk1.8.0_131\bin;C:\Apps\apache-maven-3.2.5\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Apps\AnypointStudio;;."/>
+    <property key="java.specification.name" value="Java Platform API Specification"/>
+    <property key="java.class.version" value="52.0"/>
+    <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property key="os.version" value="6.1"/>
+    <property key="user.home" value="C:\Users\samasca"/>
+    <property key="user.timezone" value="Australia/Brisbane"/>
+    <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property key="file.encoding" value="Cp1252"/>
+    <property key="java.specification.version" value="1.8"/>
+    <property key="java.class.path" value="C:\Apps\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
+    <property key="user.name" value="samasca"/>
+    <property key="java.vm.specification.version" value="1.8"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test -f D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\pom.xml"/>
+    <property key="java.home" value="D:\Apps\Java\jdk1.8.0_131\jre"/>
+    <property key="sun.arch.data.model" value="64"/>
+    <property key="user.language" value="en"/>
+    <property key="java.specification.vendor" value="Oracle Corporation"/>
+    <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property key="java.vm.info" value="mixed mode"/>
+    <property key="java.version" value="1.8.0_131"/>
+    <property key="java.ext.dirs" value="D:\Apps\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property key="sun.boot.class.path" value="D:\Apps\Java\jdk1.8.0_131\jre\lib\resources.jar;D:\Apps\Java\jdk1.8.0_131\jre\lib\rt.jar;D:\Apps\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;D:\Apps\Java\jdk1.8.0_131\jre\lib\jsse.jar;D:\Apps\Java\jdk1.8.0_131\jre\lib\jce.jar;D:\Apps\Java\jdk1.8.0_131\jre\lib\charsets.jar;D:\Apps\Java\jdk1.8.0_131\jre\lib\jfr.jar;D:\Apps\Java\jdk1.8.0_131\jre\classes"/>
+    <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="maven.home" value="C:\Apps\apache-maven-3.2.5"/>
+    <property key="file.separator" value="\"/>
+    <property key="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property key="sun.cpu.endian" value="little"/>
+    <property key="sun.desktop" value="windows"/>
+    <property key="sun.cpu.isalist" value="amd64"/>
+    <property key="mule.testingMode" value="true"/>
+    <property key="mule.working.dir" value="D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\target\.mule"/>
+  </properties>
+  <testcase time="0.008" name="sample-maven-app-test-suite-exampleFlow-functionalTest_2" classname="sample-maven-app-test-suite"/>
+  <testcase time="0.007" name="sample-maven-app-test-suite-exampleFlow2Test2" classname="sample-maven-app-test-suite"/>
+  <testcase time="0.069" name="sample-maven-app-test-suite-exampleFlow2Test1" classname="sample-maven-app-test-suite"/>
+  <testcase time="0.01" name="sample-maven-app-test-suite-exampleFlow-unit-test_2" classname="sample-maven-app-test-suite"/>
+  <testcase time="0.026" name="sample-maven-app-test-suite-exampleFlow-unit-test_1" classname="sample-maven-app-test-suite"/>
+  <testcase time="0.012" name="sample-maven-app-test-suite-exampleFlow-functionalTest_1" classname="sample-maven-app-test-suite"/>
+</testsuite>

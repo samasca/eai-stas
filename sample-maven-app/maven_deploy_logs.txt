@@ -1,0 +1,101 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Mule sample-maven-app Application 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- mule-app-maven-plugin:1.2:attach-test-resources (default-attach-test-resources) @ sample-maven-app ---
+[INFO] attaching test resource D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\src\main\app
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-resource (add-resource) @ sample-maven-app ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ sample-maven-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\mappings
+[INFO] 
+[INFO] --- mule-app-maven-plugin:1.2:filter-resources (default-filter-resources) @ sample-maven-app ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.2:compile (default-compile) @ sample-maven-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ sample-maven-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.2:testCompile (default-testCompile) @ sample-maven-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ sample-maven-app ---
+[INFO] 
+[INFO] --- munit-maven-plugin:1.3.2:test (test) @ sample-maven-app ---
+[INFO] Acquiring dynamic ports...
+[INFO] Dynamic port definition [DONE]
+[INFO] Mule working directory set to: D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\target\.mule
+[org.mule.munit.remote.RemoteRunner]Run Started
+Coverage port: 54916 resources: sample-maven-app.xml 
+=======================================================================
+===========  Running  sample-maven-app-test-suite.xml  test ===========
+=======================================================================
+Running sample-maven-app-test-suite-sample-maven-appFlowTest
+SUCCESS - Test sample-maven-app-test-suite-sample-maven-appFlowTest finished Successfully.
+Connected to localhost in port 54916
+[org.mule.munit.remote.CoverageManager]accumulating report
+[org.mule.munit.remote.CoverageManager]report is not null
+
+===================================================================================
+Number of tests run: 1 - Failed: 0 - Errors: 0 - Skipped: 0 - Time elapsed: 0.047ms
+===================================================================================
+[org.mule.munit.remote.CoverageManager]Calculating application coverage for resources: sample-maven-app.xml
+[org.mule.munit.remote.RemoteRunner]Done
+[INFO] Printing Coverage Report...
+[INFO] ===============================================================================
+[INFO] MUnit Coverage Summary
+[INFO] ===============================================================================
+[INFO]  * Resources: 1 - Flows: 1 - Message Processors: 1
+[INFO]  * Application Coverage: 100.00%
+[INFO] ====================================================================================
+[INFO] MUnit Run Summary                                                                   
+[INFO] ====================================================================================
+[INFO]  >> sample-maven-app-test-suite.xml test result: Tests: 1, Errors: 0, Failures:0, Skipped: 0
+[INFO] 	
+[INFO] ====================================================================================
+[INFO]  > Tests:   	1
+[INFO]  > Errors:  	0
+[INFO]  > Failures:	0
+[INFO]  > Skipped: 	0
+[INFO] ====================================================================================
+[INFO] 
+[INFO] --- mule-app-maven-plugin:1.2:mule (default-mule) @ sample-maven-app ---
+[INFO] Copying classes directly
+[INFO] Copying api directly
+[INFO] Adding <com.mulesoft.munit.utils:munit-synchronize-module:jar:1.1.0> as a lib
+[INFO] Adding <oauth.signpost:signpost-core:jar:1.2.1.1> as a lib
+[INFO] D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\mappings does not exist, skipping
+[INFO] Building zip: D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\target\sample-maven-app-1.0.0-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ sample-maven-app ---
+[INFO] No primary artifact to install, installing attached artifacts instead.
+[INFO] Installing D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\pom.xml to C:\Apps\apache-maven-3.2.5\repository\sample\maven\app\sample-maven-app\1.0.0-SNAPSHOT\sample-maven-app-1.0.0-SNAPSHOT.pom
+[INFO] Installing D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\target\sample-maven-app-1.0.0-SNAPSHOT.zip to C:\Apps\apache-maven-3.2.5\repository\sample\maven\app\sample-maven-app\1.0.0-SNAPSHOT\sample-maven-app-1.0.0-SNAPSHOT.zip
+[INFO] 
+[INFO] --- mule-app-maven-plugin:1.2:install (default-install) @ sample-maven-app ---
+[INFO] Copying D:\Apps\AnypointStudioWorkspace\workspace\sample-maven-app\target\sample-maven-app-1.0.0-SNAPSHOT.zip to D:\Apps\mule-enterprise-standalone-3.8.4\apps\sample-maven-app-1.0.0-SNAPSHOT.temp
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.179 s
+[INFO] Finished at: 2017-08-15T13:43:55+10:00
+[INFO] Final Memory: 28M/634M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.mule.tools.maven:mule-app-maven-plugin:1.2:install (default-install) on project sample-maven-app: Could not rename D:\Apps\mule-enterprise-standalone-3.8.4\apps\sample-maven-app-1.0.0-SNAPSHOT.temp to D:\Apps\mule-enterprise-standalone-3.8.4\apps\sample-maven-app-1.0.0-SNAPSHOT.zip -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

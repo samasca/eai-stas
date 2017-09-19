@@ -1,0 +1,10 @@
+SUCCESS - Test sample-maven-app-test-suite-exampleFlow-functionalTest_2 finished Successfully.
+SUCCESS - Test sample-maven-app-test-suite-exampleFlow2Test2 finished Successfully.
+SUCCESS - Test sample-maven-app-test-suite-exampleFlow2Test1 finished Successfully.
+SUCCESS - Test sample-maven-app-test-suite-exampleFlow-unit-test_2 finished Successfully.
+SUCCESS - Test sample-maven-app-test-suite-exampleFlow-unit-test_1 finished Successfully.
+SUCCESS - Test sample-maven-app-test-suite-exampleFlow-functionalTest_1 finished Successfully.
+
+=============================================================================
+Tests run: 6 - Failures: 0 - Errors: 0 - Skipped: 0 - Time elapsed: 0.303 sec
+=============================================================================
